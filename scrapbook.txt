@@ -15,5 +15,5 @@ correlation of columns with the target variable is virtually zero
 
 business conclusion:
 
-Links
-https://economictimes.indiatimes.com/wealth/borrow/car-loan-default-what-when-and-how/articleshow/5089727.cms
+
+https://economictimes.indiatimes.com/wealth/borrow/car-loan-default-what-when-and-how/articleshow/5089727.c
