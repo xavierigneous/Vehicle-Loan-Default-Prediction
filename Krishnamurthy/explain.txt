@@ -1,0 +1,10 @@
+collinearity check
+distribution of variables
+check for all variables most of the variables are right skewed
+outlier check 
+we filled with median values, we dint use mean values as most of the varible distribution is right skewed
+
+in order to safeguard themselves from such risks, the lenders usually ask for a security or collateral while offering a loan. The reason for asking 
+this security is to assure that in case the borrower defaults on the loan, the lender can repossess the collateral and collect the money by selling it off. 
+In this way, the bank or the lender can recover the losses that caused due to the defaulted loan.
+ In case of car loans or auto loans, the collateral is the car itself against which the loan is taken.
