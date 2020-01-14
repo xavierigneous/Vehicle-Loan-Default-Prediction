@@ -17,3 +17,6 @@ business conclusion:
 
 
 https://economictimes.indiatimes.com/wealth/borrow/car-loan-default-what-when-and-how/articleshow/5089727.c
+
+-- Literature Survey
+If the objective of the prediction is to highlight all companies susceptible to bankruptcy for further screening by a financial officer then a high recall would be desirable at the expense of a lower precision, because the financial officer can then manually remove the false positives.
