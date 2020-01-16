@@ -1,0 +1,1165 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='new_df' inline='true' name='federated.1e1wygf0d70qcl14zinlc1obpn0c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='new_df' name='textscan.13p5i4q0ovvgga0zuks9o040c1nz'>
+            <connection class='textscan' directory='C:/Users/Prabhakaran/Documents/GitHub/CAPSTONE/Data' filename='new_df.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.13p5i4q0ovvgga0zuks9o040c1nz' name='new_df.csv' table='[new_df#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='UniqueID' ordinal='1' />
+            <column datatype='integer' name='disbursed_amount' ordinal='2' />
+            <column datatype='integer' name='asset_cost' ordinal='3' />
+            <column datatype='real' name='ltv' ordinal='4' />
+            <column datatype='integer' name='branch_id' ordinal='5' />
+            <column datatype='integer' name='supplier_id' ordinal='6' />
+            <column datatype='integer' name='manufacturer_id' ordinal='7' />
+            <column datatype='integer' name='Current_pincode_ID' ordinal='8' />
+            <column datatype='integer' name='Date.of.Birth' ordinal='9' />
+            <column datatype='integer' name='Employment_Type' ordinal='10' />
+            <column datatype='integer' name='DisbursalDate' ordinal='11' />
+            <column datatype='integer' name='State_ID' ordinal='12' />
+            <column datatype='integer' name='Employee_code_ID' ordinal='13' />
+            <column datatype='integer' name='Aadhar_flag' ordinal='14' />
+            <column datatype='integer' name='VoterID_flag' ordinal='15' />
+            <column datatype='integer' name='Driving_flag' ordinal='16' />
+            <column datatype='integer' name='Passport_flag' ordinal='17' />
+            <column datatype='integer' name='PERFORM_CNS.SCORE' ordinal='18' />
+            <column datatype='integer' name='PERFORM_CNS.SCORE.DESCRIPTION' ordinal='19' />
+            <column datatype='integer' name='PRI.NO.OF.ACCTS' ordinal='20' />
+            <column datatype='integer' name='PRI.ACTIVE.ACCTS' ordinal='21' />
+            <column datatype='integer' name='PRI.OVERDUE.ACCTS' ordinal='22' />
+            <column datatype='integer' name='PRI.CURRENT.BALANCE' ordinal='23' />
+            <column datatype='integer' name='PRI.SANCTIONED.AMOUNT' ordinal='24' />
+            <column datatype='integer' name='PRI.DISBURSED.AMOUNT' ordinal='25' />
+            <column datatype='integer' name='SEC.SANCTIONED.AMOUNT' ordinal='26' />
+            <column datatype='integer' name='SEC.DISBURSED.AMOUNT' ordinal='27' />
+            <column datatype='integer' name='PRIMARY.INSTAL.AMT' ordinal='28' />
+            <column datatype='integer' name='NEW.ACCTS.IN.LAST.SIX.MONTHS' ordinal='29' />
+            <column datatype='integer' name='DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS' ordinal='30' />
+            <column datatype='integer' name='NO.OF_INQUIRIES' ordinal='31' />
+            <column datatype='integer' name='loan_default' ordinal='32' />
+            <column datatype='integer' name='Avg_Loan_tenure' ordinal='33' />
+            <column datatype='integer' name='Time_since_1st_loan' ordinal='34' />
+            <column datatype='integer' name='Age_at_disbursal' ordinal='35' />
+            <column datatype='integer' name='flag' ordinal='36' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UniqueID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UniqueID]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>UniqueID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disbursed_amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[disbursed_amount]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>disbursed_amount</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>asset_cost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[asset_cost]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>asset_cost</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ltv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ltv]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>ltv</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>branch_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[branch_id]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>branch_id</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>supplier_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[supplier_id]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>supplier_id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>manufacturer_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[manufacturer_id]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>manufacturer_id</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current_pincode_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Current_pincode_ID]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Current_pincode_ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date.of.Birth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Date.of.Birth]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Date.of.Birth</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employment_Type</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employment_Type]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Employment_Type</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DisbursalDate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DisbursalDate]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>DisbursalDate</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[State_ID]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>State_ID</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee_code_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employee_code_ID]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Employee_code_ID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aadhar_flag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aadhar_flag]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Aadhar_flag</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VoterID_flag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[VoterID_flag]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>VoterID_flag</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Driving_flag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Driving_flag]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Driving_flag</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Passport_flag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Passport_flag]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Passport_flag</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERFORM_CNS.SCORE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PERFORM_CNS.SCORE]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PERFORM_CNS.SCORE</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERFORM_CNS.SCORE.DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PERFORM_CNS.SCORE.DESCRIPTION]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PERFORM_CNS.SCORE.DESCRIPTION</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRI.NO.OF.ACCTS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRI.NO.OF.ACCTS]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PRI.NO.OF.ACCTS</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRI.ACTIVE.ACCTS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRI.ACTIVE.ACCTS]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PRI.ACTIVE.ACCTS</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRI.OVERDUE.ACCTS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRI.OVERDUE.ACCTS]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PRI.OVERDUE.ACCTS</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRI.CURRENT.BALANCE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRI.CURRENT.BALANCE]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PRI.CURRENT.BALANCE</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRI.SANCTIONED.AMOUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRI.SANCTIONED.AMOUNT]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PRI.SANCTIONED.AMOUNT</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRI.DISBURSED.AMOUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRI.DISBURSED.AMOUNT]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PRI.DISBURSED.AMOUNT</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEC.SANCTIONED.AMOUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SEC.SANCTIONED.AMOUNT]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>SEC.SANCTIONED.AMOUNT</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEC.DISBURSED.AMOUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SEC.DISBURSED.AMOUNT]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>SEC.DISBURSED.AMOUNT</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRIMARY.INSTAL.AMT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRIMARY.INSTAL.AMT]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>PRIMARY.INSTAL.AMT</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEW.ACCTS.IN.LAST.SIX.MONTHS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NEW.ACCTS.IN.LAST.SIX.MONTHS]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>NEW.ACCTS.IN.LAST.SIX.MONTHS</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO.OF_INQUIRIES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NO.OF_INQUIRIES]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>NO.OF_INQUIRIES</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_default</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[loan_default]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>loan_default</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Loan_tenure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg_Loan_tenure]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Avg_Loan_tenure</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time_since_1st_loan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Time_since_1st_loan]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Time_since_1st_loan</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_at_disbursal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age_at_disbursal]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>Age_at_disbursal</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[flag]</local-name>
+            <parent-name>[new_df.csv]</parent-name>
+            <remote-alias>flag</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column aggregation='Sum' datatype='integer' name='[Aadhar_flag]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Current_pincode_ID]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Driving_flag]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Employee_code_ID]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Employment_Type]' role='dimension' type='ordinal' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[NEW.ACCTS.IN.LAST.SIX.MONTHS]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[NO.OF_INQUIRIES]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[PRI.ACTIVE.ACCTS]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[PRI.NO.OF.ACCTS]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[PRI.OVERDUE.ACCTS]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Passport_flag]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[State_ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[UniqueID]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[VoterID_flag]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[branch_id]' role='dimension' type='ordinal' />
+      <column datatype='integer' hidden='true' name='[flag]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[loan_default]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[manufacturer_id]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[supplier_id]' role='dimension' type='ordinal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Prabhakaran/Documents/My Tableau Repository/Datasources/new_df.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/16/2020 09:43:24 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='new_df' increment-value='%null%' refresh-type='create' rows-inserted='228243' timestamp-start='2020-01-16 09:43:24.337' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>228243</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>UniqueID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[UniqueID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>UniqueID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>228243</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>disbursed_amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[disbursed_amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>disbursed_amount</remote-alias>
+              <ordinal>2</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10263</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>asset_cost</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[asset_cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>asset_cost</remote-alias>
+              <ordinal>3</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42279</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ltv</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ltv]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ltv</remote-alias>
+              <ordinal>4</ordinal>
+              <family>new_df.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19503</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>branch_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[branch_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>branch_id</remote-alias>
+              <ordinal>5</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>149</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>supplier_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[supplier_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>supplier_id</remote-alias>
+              <ordinal>6</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7839</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>manufacturer_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[manufacturer_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>manufacturer_id</remote-alias>
+              <ordinal>7</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Current_pincode_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Current_pincode_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Current_pincode_ID</remote-alias>
+              <ordinal>8</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13325</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date.of.Birth</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Date.of.Birth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date.of.Birth</remote-alias>
+              <ordinal>9</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employment_Type</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Employment_Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employment_Type</remote-alias>
+              <ordinal>10</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DisbursalDate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DisbursalDate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DisbursalDate</remote-alias>
+              <ordinal>11</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[State_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State_ID</remote-alias>
+              <ordinal>12</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employee_code_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Employee_code_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employee_code_ID</remote-alias>
+              <ordinal>13</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14025</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Aadhar_flag</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Aadhar_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Aadhar_flag</remote-alias>
+              <ordinal>14</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>VoterID_flag</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[VoterID_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>VoterID_flag</remote-alias>
+              <ordinal>15</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Driving_flag</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Driving_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Driving_flag</remote-alias>
+              <ordinal>16</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Passport_flag</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Passport_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Passport_flag</remote-alias>
+              <ordinal>17</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERFORM_CNS.SCORE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PERFORM_CNS.SCORE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERFORM_CNS.SCORE</remote-alias>
+              <ordinal>18</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1788</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERFORM_CNS.SCORE.DESCRIPTION</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PERFORM_CNS.SCORE.DESCRIPTION]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERFORM_CNS.SCORE.DESCRIPTION</remote-alias>
+              <ordinal>19</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRI.NO.OF.ACCTS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRI.NO.OF.ACCTS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRI.NO.OF.ACCTS</remote-alias>
+              <ordinal>20</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRI.ACTIVE.ACCTS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRI.ACTIVE.ACCTS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRI.ACTIVE.ACCTS</remote-alias>
+              <ordinal>21</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRI.OVERDUE.ACCTS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRI.OVERDUE.ACCTS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRI.OVERDUE.ACCTS</remote-alias>
+              <ordinal>22</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRI.CURRENT.BALANCE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRI.CURRENT.BALANCE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRI.CURRENT.BALANCE</remote-alias>
+              <ordinal>23</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>92597</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRI.SANCTIONED.AMOUNT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRI.SANCTIONED.AMOUNT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRI.SANCTIONED.AMOUNT</remote-alias>
+              <ordinal>24</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21152</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRI.DISBURSED.AMOUNT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRI.DISBURSED.AMOUNT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRI.DISBURSED.AMOUNT</remote-alias>
+              <ordinal>25</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23187</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SEC.SANCTIONED.AMOUNT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SEC.SANCTIONED.AMOUNT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SEC.SANCTIONED.AMOUNT</remote-alias>
+              <ordinal>26</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4138</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SEC.DISBURSED.AMOUNT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SEC.DISBURSED.AMOUNT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SEC.DISBURSED.AMOUNT</remote-alias>
+              <ordinal>27</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4138</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRIMARY.INSTAL.AMT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRIMARY.INSTAL.AMT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRIMARY.INSTAL.AMT</remote-alias>
+              <ordinal>28</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33153</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NEW.ACCTS.IN.LAST.SIX.MONTHS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NEW.ACCTS.IN.LAST.SIX.MONTHS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NEW.ACCTS.IN.LAST.SIX.MONTHS</remote-alias>
+              <ordinal>29</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS</remote-alias>
+              <ordinal>30</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NO.OF_INQUIRIES</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NO.OF_INQUIRIES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NO.OF_INQUIRIES</remote-alias>
+              <ordinal>31</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>loan_default</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[loan_default]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>loan_default</remote-alias>
+              <ordinal>32</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Loan_tenure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Avg_Loan_tenure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Loan_tenure</remote-alias>
+              <ordinal>33</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>268</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time_since_1st_loan</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Time_since_1st_loan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time_since_1st_loan</remote-alias>
+              <ordinal>34</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>659</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age_at_disbursal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age_at_disbursal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age_at_disbursal</remote-alias>
+              <ordinal>35</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>flag</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>flag</remote-alias>
+              <ordinal>36</ordinal>
+              <family>new_df.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.474809' measure-ordering='alphabetic' measure-percentage='0.525191' show-structure='true' user-set-layout='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='new_df' name='federated.1e1wygf0d70qcl14zinlc1obpn0c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e1wygf0d70qcl14zinlc1obpn0c'>
+            <column aggregation='Sum' datatype='integer' name='[NO.OF_INQUIRIES]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[NO.OF_INQUIRIES]' derivation='None' name='[none:NO.OF_INQUIRIES:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_red' />
+            <format attr='palette' id='refline1' value='bp_red' />
+            <format attr='palette' id='refline2' value='bp_red' />
+            <format attr='palette' id='refline3' value='bp_red' />
+            <format attr='palette' id='refline4' value='bp_red' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <size column='[federated.1e1wygf0d70qcl14zinlc1obpn0c].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1e1wygf0d70qcl14zinlc1obpn0c].[none:NO.OF_INQUIRIES:ok]</cols>
+      </table>
+      <simple-id uuid='{7A4B6118-657E-4F75-AE77-5DA569354C72}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='6' param='[federated.1e1wygf0d70qcl14zinlc1obpn0c].[sum:Number of Records:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e1wygf0d70qcl14zinlc1obpn0c].[none:PRI.ACTIVE.ACCTS:ok]</field>
+            <field>[federated.1e1wygf0d70qcl14zinlc1obpn0c].[none:disbursed_amount:qk]</field>
+            <field>[federated.1e1wygf0d70qcl14zinlc1obpn0c].[none:loan_default:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{650B252C-37DC-4221-8E9D-1C7E19B3F8F3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      iGn/A3UBninnnHwSAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
